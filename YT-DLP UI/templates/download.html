@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video/Audio Downloader</title>
+</head>
+<body>
+    <h1>Download Video or Audio</h1>
+    <form action="/download" method="post">
+        URL: <input type="text" name="url" required><br><br>
+        Type:
+        <select name="type">
+            <option value="video">Video</option>
+            <option value="audio">Audio</option>
+        </select><br><br>
+        Resolution (for video only):
+        <select name="resolution">
+            <option value="360">360p</option>
+            <option value="720">720p</option>
+            <option value="1080">1080p</option>
+            <option value="1440">1440p</option>
+        </select><br><br>
+        <button type="submit">Download</button>
+    </form>
+</body>
+</html>
