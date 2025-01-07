@@ -1,4 +1,4 @@
-Simply want to test my coding skills to make frontend GUI that is attached to a backend that has YT-DLP installed in the backend. 
+Simply want to test my coding skills to make a frontend GUI that is attached to a backend that has YT-DLP installed. 
 
 FIRST CONFIGURE AND INSTALL YT-DLP IN THE BACKEND.
 sudo apt install pip
